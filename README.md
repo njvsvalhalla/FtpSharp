@@ -86,6 +86,7 @@ Shout out to Rick Bassham for this [https://www.codeproject.com/Articles/380769/
  - Write something to console like, "server is now listening on "
  - I think it's probably fine but make sure it can handle multiple users and make sure log works fine
  - Make nuget package
+ - Actually utilize IDisposable?
  - Bug check more
 
  # License
