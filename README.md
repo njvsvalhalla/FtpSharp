@@ -24,7 +24,7 @@ _optional_: This is only really displayed when a user connects to the server. De
 _optional, but recommended_: I have this set to 21221 as a default. Be mindful of your system and what ports you can set. Linux throws an exception if you do it under 1024 (unless you are root).
 
 ## SslCertFile
-_optional_: If you want to use SSL, create a cert. On windows you can use ![https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/bfsktky3(v=vs.80)](makecert.exe) and Linux you can use ![https://linux.die.net/man/1/makecert](makecert).
+_optional_: If you want to use SSL, create a cert. On windows you can use [makecert.exe](https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-2.0/bfsktky3(v=vs.80)) and Linux you can use [makecert](https://linux.die.net/man/1/makecert).
 
 ## UseIp6
 _optional_: If you want to use IPV6 use this.
@@ -71,7 +71,7 @@ _optional, but recommended_: LoggerSettings is FtpSharpLoggerSettings, which tak
 
 # Credits
 
-Shout out to Rick Bassham for this [https://www.codeproject.com/Articles/380769/Creating-an-FTP-Server-in-Csharp-with-IPv6-Support](guide) that gave me a jump start on how to approach implementing an RFC and how to handle connections in C#. Learned a ton!
+Shout out to Rick Bassham for this [guide](https://www.codeproject.com/Articles/380769/Creating-an-FTP-Server-in-Csharp-with-IPv6-Support) that gave me a jump start on how to approach implementing an RFC and how to handle connections in C#. Learned a ton!
 
 # TODO
 
